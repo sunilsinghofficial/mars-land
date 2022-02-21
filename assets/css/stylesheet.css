@@ -1,0 +1,757 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+body {
+    background-image: url('../images/bg-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.break {
+    display: block;
+}
+
+/*---------------------------------------------- HERO-SECTION-CLASSES-START------------------------------- */
+
+
+/*---------------------------------------------- SECTION-CLASSES-END------------------------------- */
+
+
+@media (min-width:320px)and (max-width:575.98px) {
+    
+    
+    .fs_lg_hero {
+        font-size: 17px;
+    }
+
+    .fw_400 {
+        font-weight: 400;
+    }
+
+    .color_danger {
+        color: rgba(255, 65, 65, 1);
+    }
+
+    .button_red {
+        border: none;
+        background-color: rgba(255, 65, 65, 1);
+        color: white;
+        border-radius: 20px;
+        padding: 8px 20px;
+        box-shadow: 0px 10px 20px rgba(255, 65, 65, 1);
+    }
+
+    .button_red:hover {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_white {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_white:hover {
+        border: none;
+        background-color: rgba(255, 65, 65, 1);
+        color: white;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_group {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+
+    .fs_lg_section_header {
+        font-size: 16px;
+    }
+
+    .fw_600 {
+        font-weight: 600;
+    }
+
+    .margin_50 {
+        margin: 50px 0px;
+    }
+
+    /*---------------------------------------------- HERO-SECTION-CLASSES-END------------------------------- */
+
+
+
+    /*----------------------------------------------SECTION-CLASSES-START------------------------------- */
+
+    .margin_top_75 {
+        margin-top: 75px !important;
+    }
+
+    .post {
+        border-radius: 30px;
+        /* box-shadow: 5px 0px 10px rgba(255, 65, 65, 1); */
+    }
+
+    .post_3 {
+        border-radius: 30px;
+        box-shadow: 5px 0px 10px rgba(255, 65, 65, 1);
+    }
+
+    .bg_post {
+        background-color: #2A1023 !important;
+    }
+
+    .fs_20 {
+        font-size: 20px;
+    }
+
+    .bx_shadow {
+        box-shadow: 10px 10px 30px rgba(255, 65, 65, 1);
+    }
+
+    .bg_accordian {
+        background-color: #391A30 !important;
+    }
+    
+    .mars_width_90{
+        width: 90%;
+    }
+
+    /*---------------------------------------------- SECTION-CLASSES-END------------------------------- */
+
+
+
+}
+
+
+@media (min-width:576px)and (max-width:767.98px) {
+    
+    .fs_lg_hero {
+        font-size: 24px;
+    }
+
+    .fw_400 {
+        font-weight: 400;
+    }
+
+    .color_danger {
+        color: rgba(255, 65, 65, 1);
+    }
+
+    .button_red {
+        border: none;
+        background-color: rgba(255, 65, 65, 1);
+        color: white;
+        border-radius: 20px;
+        padding: 8px 20px;
+        box-shadow: 0px 10px 20px rgba(255, 65, 65, 1);
+    }
+
+    .button_red:hover {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_white {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_white:hover {
+        border: none;
+        background-color: rgba(255, 65, 65, 1);
+        color: white;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_group {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+
+    .fs_lg_section_header {
+        font-size: 16px;
+    }
+
+    .fw_600 {
+        font-weight: 600;
+    }
+
+    .margin_50 {
+        margin: 50px 0px;
+    }
+
+    /*---------------------------------------------- HERO-SECTION-CLASSES-END------------------------------- */
+
+
+
+    /*----------------------------------------------SECTION-CLASSES-START------------------------------- */
+
+    .margin_top_75 {
+        margin-top: 75px !important;
+    }
+
+    .post {
+        border-radius: 30px;
+        /* box-shadow: 5px 0px 10px rgba(255, 65, 65, 1); */
+    }
+
+    .post_3 {
+        border-radius: 30px;
+        box-shadow: 5px 0px 10px rgba(255, 65, 65, 1);
+    }
+
+    .bg_post {
+        background-color: #2A1023 !important;
+    }
+
+    .fs_20 {
+        font-size: 20px;
+    }
+
+    .bx_shadow {
+        box-shadow: 10px 10px 30px rgba(255, 65, 65, 1);
+    }
+
+    .bg_accordian {
+        background-color: #391A30 !important;
+    }
+
+    /*---------------------------------------------- SECTION-CLASSES-END------------------------------- */
+
+
+}
+
+
+@media (min-width:768px)and (max-width:991.98px) {
+    .fs_lg_hero {
+        font-size: 34px;
+    }
+
+    .fw_400 {
+        font-weight: 400;
+    }
+
+    .color_danger {
+        color: rgba(255, 65, 65, 1);
+    }
+
+    .button_red {
+        border: none;
+        background-color: rgba(255, 65, 65, 1);
+        color: white;
+        border-radius: 20px;
+        padding: 8px 20px;
+        box-shadow: 0px 10px 20px rgba(255, 65, 65, 1);
+    }
+
+    .button_red:hover {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_white {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_white:hover {
+        border: none;
+        background-color: rgba(255, 65, 65, 1);
+        color: white;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    /* .button_group {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    } */
+
+    .fs_lg_section_header {
+        font-size: 20px;
+    }
+
+    .fw_600 {
+        font-weight: 600;
+    }
+
+    .margin_50 {
+        margin: 50px 0px;
+    }
+
+    /*---------------------------------------------- HERO-SECTION-CLASSES-END------------------------------- */
+
+
+
+    /*----------------------------------------------SECTION-CLASSES-START------------------------------- */
+
+    .margin_top_75 {
+        margin-top: 75px !important;
+    }
+
+    .post {
+        border-radius: 30px;
+        /* box-shadow: 5px 0px 10px rgba(255, 65, 65, 1); */
+    }
+
+    .post_3 {
+        border-radius: 30px;
+        box-shadow: 5px 0px 10px rgba(255, 65, 65, 1);
+    }
+
+    .bg_post {
+        background-color: #2A1023 !important;
+    }
+
+    .fs_20 {
+        font-size: 20px;
+    }
+
+    .bx_shadow {
+        box-shadow: 10px 10px 30px rgba(255, 65, 65, 1);
+    }
+
+    .bg_accordian {
+        background-color: #391A30 !important;
+    }
+
+    /*---------------------------------------------- SECTION-CLASSES-END------------------------------- */
+
+}
+
+
+@media (min-width:992px)and (max-width:1023.98px) {
+    .fs_lg_hero {
+        font-size: 44px;
+    }
+
+    .fw_400 {
+        font-weight: 400;
+    }
+
+    .color_danger {
+        color: rgba(255, 65, 65, 1);
+    }
+
+    .button_red {
+        border: none;
+        background-color: rgba(255, 65, 65, 1);
+        color: white;
+        border-radius: 20px;
+        padding: 8px 20px;
+        box-shadow: 0px 10px 20px rgba(255, 65, 65, 1);
+    }
+
+    .button_red:hover {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_white {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_white:hover {
+        border: none;
+        background-color: rgba(255, 65, 65, 1);
+        color: white;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    /* .button_group {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    } */
+
+    .fs_lg_section_header {
+        font-size: 24px;
+    }
+
+    .fw_600 {
+        font-weight: 600;
+    }
+
+    .margin_50 {
+        margin: 50px 0px;
+    }
+
+    /*---------------------------------------------- HERO-SECTION-CLASSES-END------------------------------- */
+
+
+
+    /*----------------------------------------------SECTION-CLASSES-START------------------------------- */
+
+    .margin_top_75 {
+        margin-top: 75px !important;
+    }
+
+    .post {
+        border-radius: 30px;
+    }
+
+    .post_3 {
+        border-radius: 30px;
+        box-shadow: 5px 0px 10px rgba(255, 65, 65, 1);
+    }
+
+    .bg_post {
+        background-color: #2A1023 !important;
+    }
+
+    .fs_20 {
+        font-size: 20px;
+    }
+
+    .bx_shadow {
+        box-shadow: 10px 10px 30px rgba(255, 65, 65, 1);
+    }
+
+    .bg_accordian {
+        background-color: #391A30 !important;
+    }
+
+    /*---------------------------------------------- SECTION-CLASSES-END------------------------------- */
+
+}
+
+
+@media (min-width:1024px)and (max-width:1199.98px) {
+    .fs_lg_hero {
+        font-size: 44px;
+    }
+
+    .fw_400 {
+        font-weight: 400;
+    }
+
+    .color_danger {
+        color: rgba(255, 65, 65, 1);
+    }
+
+    .button_red {
+        border: none;
+        background-color: rgba(255, 65, 65, 1);
+        color: white;
+        border-radius: 20px;
+        padding: 8px 20px;
+        box-shadow: 0px 10px 20px rgba(255, 65, 65, 1);
+    }
+
+    .button_red:hover {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_white {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_white:hover {
+        border: none;
+        background-color: rgba(255, 65, 65, 1);
+        color: white;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    /* .button_group {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    } */
+
+    .fs_lg_section_header {
+        font-size: 24px;
+    }
+
+    .fw_600 {
+        font-weight: 600;
+    }
+
+    .margin_50 {
+        margin: 50px 0px;
+    }
+
+    /*---------------------------------------------- HERO-SECTION-CLASSES-END------------------------------- */
+
+
+
+    /*----------------------------------------------SECTION-CLASSES-START------------------------------- */
+
+    .margin_top_75 {
+        margin-top: 75px !important;
+    }
+
+    .post {
+        border-radius: 30px;
+        /* box-shadow: 5px 0px 10px rgba(255, 65, 65, 1); */
+    }
+
+    .post_3 {
+        border-radius: 30px;
+        box-shadow: 5px 0px 10px rgba(255, 65, 65, 1);
+    }
+
+    .bg_post {
+        background-color: #2A1023 !important;
+    }
+
+    .fs_20 {
+        font-size: 20px;
+    }
+
+    .bx_shadow {
+        box-shadow: 10px 10px 30px rgba(255, 65, 65, 1);
+    }
+
+    .bg_accordian {
+        background-color: #391A30 !important;
+    }
+
+    /*---------------------------------------------- SECTION-CLASSES-END------------------------------- */
+
+}
+
+
+@media (min-width:1200px)and (max-width:1399.98px) {
+    .fs_lg_hero {
+        font-size: 54px;
+    }
+
+    .fw_400 {
+        font-weight: 400;
+    }
+
+    .color_danger {
+        color: rgba(255, 65, 65, 1);
+    }
+
+    .button_red {
+        border: none;
+        background-color: rgba(255, 65, 65, 1);
+        color: white;
+        border-radius: 20px;
+        padding: 8px 20px;
+        box-shadow: 0px 10px 20px rgba(255, 65, 65, 1);
+    }
+
+    .button_red:hover {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_white {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_white:hover {
+        border: none;
+        background-color: rgba(255, 65, 65, 1);
+        color: white;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .fs_lg_section_header {
+        font-size: 34px;
+    }
+
+    .fw_600 {
+        font-weight: 600;
+    }
+
+    .margin_50 {
+        margin: 50px 0px;
+    }
+
+    /*---------------------------------------------- HERO-SECTION-CLASSES-END------------------------------- */
+
+
+
+    /*----------------------------------------------SECTION-CLASSES-START------------------------------- */
+
+    .margin_top_75 {
+        margin-top: 75px !important;
+    }
+
+    .post {
+        border-radius: 30px;
+        /* box-shadow: 5px 0px 10px rgba(255, 65, 65, 1); */
+    }
+
+    .post_3 {
+        border-radius: 30px;
+        box-shadow: 5px 0px 10px rgba(255, 65, 65, 1);
+    }
+
+    .bg_post {
+        background-color: #2A1023 !important;
+    }
+
+    .fs_20 {
+        font-size: 20px;
+    }
+
+    .bx_shadow {
+        box-shadow: 10px 10px 30px rgba(255, 65, 65, 1);
+    }
+
+    .bg_accordian {
+        background-color: #391A30 !important;
+    }
+
+    /*---------------------------------------------- SECTION-CLASSES-END------------------------------- */
+}
+
+
+@media (min-width:1400px)and (max-width:2000px) {
+    .fs_lg_hero {
+        font-size: 64px;
+    }
+
+    .fw_400 {
+        font-weight: 400;
+    }
+
+    .color_danger {
+        color: rgba(255, 65, 65, 1);
+    }
+
+    .button_red {
+        border: none;
+        background-color: rgba(255, 65, 65, 1);
+        color: white;
+        border-radius: 20px;
+        padding: 8px 20px;
+        box-shadow: 0px 10px 20px rgba(255, 65, 65, 1);
+    }
+
+    .button_red:hover {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_white {
+        border: none;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .button_white:hover {
+        border: none;
+        background-color: rgba(255, 65, 65, 1);
+        color: white;
+        border-radius: 20px;
+        padding: 8px 20px;
+    }
+
+    .fs_lg_section_header {
+        font-size: 48px;
+    }
+
+    .fw_600 {
+        font-weight: 600;
+    }
+
+    .margin_50 {
+        margin: 50px 0px;
+    }
+
+    /*---------------------------------------------- HERO-SECTION-CLASSES-END------------------------------- */
+
+
+
+    /*----------------------------------------------SECTION-CLASSES-START------------------------------- */
+
+    .margin_top_75 {
+        margin-top: 75px !important;
+    }
+
+    .post {
+        border-radius: 30px;
+        /* box-shadow: 5px 0px 10px rgba(255, 65, 65, 1); */
+    }
+
+    .post_3 {
+        border-radius: 30px;
+        box-shadow: 5px 0px 10px rgba(255, 65, 65, 1);
+    }
+
+    .bg_post {
+        background-color: #2A1023 !important;
+    }
+
+    .fs_20 {
+        font-size: 20px;
+    }
+
+    .bx_shadow {
+        box-shadow: 10px 10px 30px rgba(255, 65, 65, 1);
+    }
+
+    .bg_accordian {
+        background-color: #391A30 !important;
+    }
+
+    /*---------------------------------------------- SECTION-CLASSES-END------------------------------- */
+}
